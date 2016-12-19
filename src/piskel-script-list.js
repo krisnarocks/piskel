@@ -211,6 +211,7 @@
   "js/tools/drawing/selection/ShapeSelect.js",
   "js/tools/drawing/ColorPicker.js",
   "js/tools/drawing/ColorSwap.js",
+  "js/tools/drawing/Random.js",
   "js/tools/drawing/DitheringTool.js",
   "js/tools/transform/AbstractTransformTool.js",
   "js/tools/transform/Center.js",

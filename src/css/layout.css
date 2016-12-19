@@ -55,9 +55,9 @@
 
 .sticky-section {
   position: fixed;
-  top: 0;
+  top: 70px;
   bottom: 0;
-  z-index: 1000;
+  /*z-index: 1000;*/
 }
 
 .sticky-section .sticky-section-wrap {
@@ -158,3 +158,22 @@
 .canvas.canvas-overlay       {z-index:  9;}
 .canvas.onion-skin-canvas    {z-index:  10;}
 .canvas.layers-above-canvas  {z-index:  11;}
+
+#menubar{
+  margin-top: 5px;
+  height: 20px;
+  background: #1d1d1d;
+  color: white;
+  vertical-align: middle;
+}
+
+#menubar-container li{
+  display: inline;
+  padding: 5px 5px;
+  font-size: 13px;
+  z-index: 1111;
+}
+
+#menubar-container li:hover{
+  background: rgba(200,200,200,0.5);
+}
